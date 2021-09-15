@@ -1,7 +1,7 @@
 name: valid
 on:
   push:
-    branches:
+    branch:
       - main
   pull_request:
     types: [opened, synchronize]
